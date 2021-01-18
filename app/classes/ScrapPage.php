@@ -52,7 +52,7 @@ class ScrapPage
 
         if ($isGetParam) {
             $arrayObj['obj'] = $isGetParam;
-            $arrayObj['email'] = ["recipient_name" => "Marcos","recipient_email" => "marcos_sco@outlook.com"]; 
+            $arrayObj['email'] = ["recipient_name" => "João Macedo","recipient_email" => "joao.macedo@elastic.fit"]; 
             $this->sendToOutput($arrayObj);
         }
 

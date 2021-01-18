@@ -225,6 +225,11 @@
                 <p><a class="mail-link" href="mailto:marcos_sco@outlook.com">marcos_sco@outlook.com</a></p>
                 <p>Tel: (11) 944448798</p>
                 <p>BARUERI, SP</p>
+
+                <p><b>Vídeo para demonstação:</b> <a href="https://www.youtube.com/watch?v=zhpUFT0hBQM&feature=youtu.be" target="_blank">https://www.youtube.com/watch?v=zhpUFT0hBQM&feature=youtu.be</a></p>
+                
+                <p><b>Repositório no github:</b> <a href="https://github.com/Marcos-SCO/rastreio_correio" target="_blank">https://github.com/Marcos-SCO/rastreio_correio</a></p>
+
             </div>
             <p><br>Falta pouco!<br>Equipe da E-lastic Brasil</p>
         </div>
