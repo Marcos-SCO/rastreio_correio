@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "e4522360-8b65-4735-9ab1-d28d42af595e",
+		"name": "rastreador_encomenda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"obj\": \"OA016913717BR\",\r\n    \"email\": {\r\n        \"recipient_name\": \"Marcos\",\r\n        \"recipient_email\": \"marcos_sco@outlook.com\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE}}",
+					"host": [
+						"{{BASE}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiple Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"objects\": [\r\n        {\r\n            \"obj\": \"OA016913717BR\",\r\n            \"email\": {\r\n                \"recipient_name\": \"Marcos\",\r\n                \"recipient_email\": \"marcos_sco@outlook.com\"\r\n            }\r\n        },\r\n        {\r\n            \"obj\": \"OA016913717BRa\",\r\n            \"email\": {\r\n                \"recipient_name\": \"Marcos\",\r\n                \"recipient_email\": \"marcos_sco@outlook.com\"\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE}}",
+					"host": [
+						"{{BASE}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
